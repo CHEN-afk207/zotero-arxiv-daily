@@ -4,9 +4,7 @@ defaults:
   - _self_
 
 executor:
-  source:
-    - arxiv
-  arxiv:
-    category:
-      - cs.LG
-      - cs.CV
+  source: ['arxiv']
+
+arxiv:
+  category: ["cs.AI", "cs.CV", "cs.LG", "cs.CL"]
