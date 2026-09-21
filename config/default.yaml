@@ -8,7 +8,5 @@ executor:
     - arxiv
   arxiv:
     category:
-      - cs.LG  # 机器学习 (Fair clustering 核心方向)
-      - cs.CV  # 计算机视觉 (Multi-view 常用领域)
-      - cs.AI  # 人工智能
-      - stat.ML # 机器学习(统计)
+      - cs.LG
+      - cs.CV
