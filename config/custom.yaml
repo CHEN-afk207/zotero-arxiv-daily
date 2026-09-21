@@ -18,10 +18,8 @@ llm:
   generation_kwargs:
     model: deepseek-chat
 
-# 注意这里！arxiv 必须是顶级字段，不能缩进在 executor 下面
-arxiv:
-  category: ["cs.AI", "cs.CV", "cs.LG", "cs.CL"]
-
 executor:
   debug: ${oc.env:DEBUG,null}
   source: ['arxiv']
+  arxiv:
+    category: ["cs.AI", "cs.CV", "cs.LG", "cs.CL"]
