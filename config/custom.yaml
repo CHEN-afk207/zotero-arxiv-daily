@@ -21,5 +21,7 @@ llm:
 executor:
   debug: ${oc.env:DEBUG,null}
   source: ['arxiv']
-  arxiv:
-    category: ["cs.AI", "cs.CV", "cs.LG", "cs.CL"]
+
+# ⚠️ 核心：arxiv 必须顶格写，不能放在 executor 下面！
+arxiv:
+  category: ["cs.AI", "cs.CV", "cs.LG", "cs.CL"]
