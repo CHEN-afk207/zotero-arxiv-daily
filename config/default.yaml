@@ -1,3 +1,7 @@
 defaults:
   - base
   - custom
+  - _self_
+
+executor:
+  source: arxiv
