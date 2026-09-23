@@ -6,7 +6,7 @@ zotero:
 
 source:
   arxiv:
-    category: ["cs.AI", "cs.CV", "cs.LG", "cs.CL"]
+    category: ["cs.LG", "cs.CV"]
     include_cross_list: false
   biorxiv:
     category: null
@@ -47,6 +47,6 @@ reranker:
 executor:
   debug: false
   send_empty: false
-  max_paper_num: 100
-  source: ['arxiv']
+  max_paper_num: 20
+  source: ['arxiv', 'biorxiv']
   reranker: local
