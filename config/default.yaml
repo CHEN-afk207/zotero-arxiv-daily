@@ -3,8 +3,4 @@ defaults:
   - custom
   - _self_
 
-executor:
-  source: ['arxiv']
 
-arxiv:
-  category: ["cs.AI", "cs.CV", "cs.LG", "cs.CL"]
