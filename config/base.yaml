@@ -1,7 +1,7 @@
 zotero:
   user_id: ${oc.env:ZOTERO_ID}
   api_key: ${oc.env:ZOTERO_KEY}
-  include_path: ["聚类/公平多视角聚类/**"]
+  include_path: null
   ignore_path: null
 
 source:
