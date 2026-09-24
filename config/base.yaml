@@ -46,7 +46,7 @@ reranker:
 
 executor:
   debug: false
-  send_empty: false
+  send_empty: true
   max_paper_num: 10
   source: ['arxiv']
   reranker: local
